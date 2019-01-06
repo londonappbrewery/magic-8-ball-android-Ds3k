@@ -5,6 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     android:background="@android:color/holo_blue_bright"
     tools:context=".MainActivity">
 
@@ -23,7 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="32dp"
-        android:background="@color/colorPrimaryDark"
         android:gravity="center_horizontal"
         android:padding="8dp"
         android:text="@string/decisions"

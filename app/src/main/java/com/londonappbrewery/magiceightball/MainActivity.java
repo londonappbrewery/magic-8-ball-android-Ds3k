@@ -15,13 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Clicks for the button
-        Button askButton;
-        askButton = findViewById(R.id.askButton);
 
         final ImageView magicBall = findViewById(R.id.magicBall);
 
-        final int[] ballArray = {
+        final int[] ballArray = new int[] {
 
                 R.drawable.ball1,
                 R.drawable.ball2,
@@ -29,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.ball4,
                 R.drawable.ball5
         };
+
+        //Clicks for the button
+        Button askButton = findViewById(R.id.askButton);
 
         askButton.setOnClickListener(new View.OnClickListener() {
             @Override
